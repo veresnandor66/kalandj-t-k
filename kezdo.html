@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kalandjáték - Kisértettkastély</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .body {
+            color: rgb(0, 255, 0);
+            background-color: black;
+        }
+        a{
+            color: rgb(0, 255, 0);
+        }
+    </style>
 </head>
-<body>
+
+<body class="body">
     <div class="tarolo">
-<h1>Ház előtt</h1>
-<p>
-    Egy fura ház amit évek óta nem gondoztak és takarítottak. Az előtt vagy a Google maps azt jelzi, hogy egy vegyipari gyár előtt vagy. 
-</p>
-<p>
-    <b>lehetőségeid:</b>
-    <a href="">bemegyek az ajtón</a>
-    <a href="">megkerülöm</a>
-    <a href="gameover.html">elmegyek</a>
-</p>
+            <video autoplay muted loop id="myVideo">
+                <source src="Videó/mainmenu.mp4" type="video/mp4">
+              </video>
+        <h1>Main Menu</h1>
+        <p id="udvozlet">Üdvözlett a játékban. A válaszaid hatással lesznek a történet alakulásában. Fontold meg a döntéseidet.</p>
+            <h2></h2>
+        <p>
+        <ul>
+            <li><a href="jatektortenet.html">Játék történet</a></li>
+            <li><a href="rakerdezes.html">Kezdés</a></li>
+            <li><a href="keszitok.html">Készítők</a></li>
+            <li><a href="beallitas.html">Beállítás</a></li>
+        </ul>
+        </p>
     </div>
 </body>
 </html>
